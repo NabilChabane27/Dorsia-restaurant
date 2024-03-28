@@ -7,6 +7,14 @@ div, h4, p, ul, li {
   font-family: 'Couture', fallback;
 }
 
+@font-face {
+  font-family: 'Mercado';
+  src: url('Mercado.otf') format('truetype');
+}
+
+.allrightsreserved-p
+
+
 footer {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 215, 0);
