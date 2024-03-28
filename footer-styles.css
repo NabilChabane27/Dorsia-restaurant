@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'FINDER';
+  font-family: 'Finder';
   src: url('Finder.otf') format('truetype');
 }
 
 div, h4, p, ul, li {
-  font-family: 'FINDER', fallback;
+  font-family: 'Finder', fallback;
 }
 
 footer {
