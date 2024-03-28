@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'FINDER';
+  src: url('Finder.otf') format('truetype');
+}
+
+div, h4, p, ul, li {
+  font-family: 'FINDER', fallback;
+}
+
 footer {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 215, 0);
