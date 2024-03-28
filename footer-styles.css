@@ -1,0 +1,41 @@
+footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 215, 0);
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-container div {
+  margin-bottom: 20px;
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.bottom-footer li {
+  margin-left: 10px;
+}
