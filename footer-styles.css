@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 @font-face {
   font-family: 'Couture';
   src: url('couture-bld.otf') format('truetype');
@@ -20,9 +25,6 @@ footer {
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
-  padding-left: 0;
-  margin-left: 0;
-  overflow-x: hidden;
 }
 
 .footer-container {
