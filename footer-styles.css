@@ -62,9 +62,3 @@ footer {
 .bottom-footer li {
   margin-left: 10px;
 }
-
-.site-footer-desktop-primary .social-accounts a {
-  color: #000;
-  background-color: gold;
-  border-radius: 50%;
-}
