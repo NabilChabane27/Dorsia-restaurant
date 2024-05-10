@@ -13,7 +13,7 @@
 body{
   
   background-image: none;
-  /*overflow-x: hidden; */
+  overflow-x: hidden; 
    background-color:  rgb(236, 235, 235);
   background-position: center center  ;
   background-size: contain ;
