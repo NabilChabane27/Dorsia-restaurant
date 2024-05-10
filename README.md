@@ -8,4 +8,7 @@ Le LocalStorage en JavaScript stock localement des données dans le navigateur, 
 
 Nous avons ajouté un système pour détecter automatiquement le prix final en fonction de la taille et de la quantité sélectionnées. Cela garantit aux utilisateurs un prix précis et transparent pour leur commande, simplifiant ainsi le processus d'achat.
 
+On a ajouté un jeu Rock Paper Scissors, son lien est: https://nightmere33.github.io/rock-paper-scissors-finalProject/
+Le source code: https://github.com/nightmere33/rock-paper-scissors-finalProject.git
+
 Remarque: Nous avons créé le site en fonction d'un moniteur de résolution 1920x1080 donc si les images ne sont pas entières veuillez dé-zoomer.
