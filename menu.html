@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Arimo:ital,wght@0,400..700;1,400..700&family=Comfortaa:wght@300..700&family=Freeman&family=Kiwi+Maru&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Scribble&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Freeman&family=Kiwi+Maru&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Scribble&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&family=Freeman&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Scribble&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Acme&family=Freeman&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik+Scribble&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/menu.css">
+  <title>Dorsia | Menu</title>
+</head>
+<body>
+  <header class="header">
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="./index.html">
+            <img
+              src="images/Gmail/blacklogo.png"
+              alt="logo"
+              class="nav__logo-dark"
+            />
+            <img
+              src="images/Gmail/yellowlogo.png"
+              alt="logo"
+              class="nav__logo-yellow"
+            />
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="menu.html">MENU</a></li>
+        <li><a href="./location.html">LOCATION</a></li>
+        <li><a href="./contactUs.html">CONTACT US</a></li>
+      </ul>
+    </nav>
+   
+  </header>
+  
+
+
+  <main>
+    <div class="main_container">
+
+      <section class="filter_section">
+        <div class="filter_box">
+         <div class="filter-body">
+
+          <h3 class="getFont">Categories</h3>
+                    <ul class="Categories">
+                      <li> 
+                        <button class="catigories-btn" onclick="filterArticles('all')" >
+                            
+                            <p class="catigory-name">All</p>
+                          
+                        
+                        
+                        </button>
+                      </li>
+
+                      <li> 
+                        <button class="catigories-btn" onclick="filterArticles('burger')" >
+                            <i class="icon fa-solid fa-grip-vertical">
+                              
+                            </i>
+                            <p class="catigory-name">Burgers</p>
+                          
+                        
+                        
+                          </button>
+                      </li>         
+                      <li> 
+                        <button class="catigories-btn" onclick="filterArticles('chicken-nuggets')" >
+                            <i class="icon fa-solid fa-grip-vertical">
+                              
+                            </i>
+                            <p class="catigory-name">Chicken nuggets</p>
+                          
+                        
+                        
+                        </a>
+                      </li>
+                      <li> 
+                        <button class="catigories-btn" onclick="filterArticles('drinks')" >
+                            
+                              
+                            </i>
+                            <p class="catigory-name">Drinks</p>
+                          
+                        
+                        
+                        </button>
+                      </li>
+                    </ul>
+
+
+         </div>
+         
+         
+          
+
+        </div>
+
+      </section>
+
+      <section class="articles">
+
+          <a class="article_element  burger show" href="./cheeseB.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image" src="images/burger.jpg" alt="">
+
+            </figure>
+            <div class="article-body">
+
+               <div class="element_footer">
+              <h3 class="article_name">Cheese Burger</h3>
+              <p class="price-tag"> <span class="price-num">350 Da</span>  </p>
+
+            </div>
+            </div>
+           
+
+
+
+
+
+          </a>
+
+          <a class="article_element  burger show" href="./capreseBurger.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image" src="images/large_caprese-burgers.jpeg" alt="">
+
+            </figure>
+            <div class="article-body">
+
+               <div class="element_footer">
+              <h3 class="article_name">Caprese Burger</h3>
+              <p class="price-tag"> <span class="price-num">400 Da</span>  </p>
+
+            </div>
+            </div>
+           
+
+
+
+
+
+          </a>
+
+          <a class="article_element  burger show" href="./buffalo.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image" src="images/Buffalo Blue Cheese Burger.webp" alt="">
+
+            </figure>
+            <div class="article-body">
+
+               <div class="element_footer">
+              <h3 class="article_name">Buffalo Blue Cheese Burger</h3>
+              <p class="price-tag"> <span class="price-num">450 Da</p>
+
+            </div>
+            </div>
+           
+
+
+
+
+
+          </a>
+
+          <a class="article_element  burger show" href="./greekLamb.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image" src="images/Greek Lamb Burger.jpg" alt="">
+
+            </figure>
+            <div class="article-body">
+
+               <div class="element_footer">
+              <h3 class="article_name">Greek Lamb Burger</h3>
+              <p class="price-tag"> <span class="price-num">390 Da</span> </p>
+
+            </div>
+            </div>
+           
+
+
+
+
+
+          </a>
+
+          <a class="article_element  burger show" href="./muchroomBurger.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image" src="images/Mushroom-Swiss-Burger.jpg" alt="">
+
+            </figure>
+            <div class="article-body">
+
+               <div class="element_footer">
+              <h3 class="article_name">Mushroom Swiss Burger</h3>
+              <p class="price-tag"> <span class="price-num">420 Da</span>  </p>
+
+            </div>
+            </div>
+           
+
+
+
+
+
+          </a>
+
+
+
+          <a class="article_element  chicken-nuggets show" href="./chickenNuggets.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image"  src="images/chicken_nuggets1.jpg" alt="">
+
+            </figure>
+            <div class="article-body">
+
+              <div class="element_footer">
+             <h3 class="article_name">Chicken Nuggets</h3>
+             <p class="price-tag"> <span class="price-num">250 Da</span></p>
+
+           </div>
+           </div>
+
+
+
+          </a>
+
+          <a class="article_element  chicken-nuggets show" href="./chickenNuggetsBBQ.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image"  src="images/Classic BBQ Chicken Nuggets.avif" alt="">
+
+            </figure>
+            <div class="article-body">
+
+              <div class="element_footer">
+             <h3 class="article_name">Classic BBQ Chicken Nuggets</h3>
+             <p class="price-tag"> <span class="price-num">300 Da</span></p>
+
+           </div>
+           </div>
+
+
+
+          </a>
+
+
+
+          <a class="article_element drinks show  "  href="./HammoudB.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image"  src="images/hamoud.jpg" alt="hammoud">
+
+            </figure>
+            <div class="article-body">
+
+              <div class="element_footer">
+             <h3 class="article_name">Hammoud blanc</h3>
+             <p class="price-tag"><span class="price-num">60 Da</span> </p>
+
+           </div>
+           </div>
+
+
+
+
+
+          </a>
+
+          <a class="article_element drinks show  "  href="./water.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image"  src="images/saida1.jpg" alt="saida">
+
+            </figure>
+            <div class="article-body">
+
+              <div class="element_footer">
+             <h3 class="article_name">Water - Saida</h3>
+             <p class="price-tag"> <span class="price-num">30 Da</span></p>
+
+           </div>
+           </div>
+
+
+
+
+
+          </a>
+
+
+
+          <a class="article_element drinks show " href="./selecto.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image"  src="images/selecto.jpg" alt="selecto">
+
+            </figure>
+            <div class="article-body">
+
+              <div class="element_footer">
+             <h3 class="article_name">Selecto</h3>
+             <p class="price-tag"> <span class="price-num">60 Da</span></p>
+
+           </div>
+           </div>
+
+
+
+
+
+          </a>
+          <a class="article_element drinks show " href="./rammyOrg.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image" style="width: 500px;
+              height: 400px;" src="images/cocacola1.png" alt="">
+
+            </figure>
+            <div class="article-body">
+
+              <div class="element_footer">
+             <h3 class="article_name">Coca Cola</h3>
+             <p class="price-tag"> <span class="price-num">70 Da</span></p>
+
+           </div>
+           </div>
+
+
+
+
+
+          </a>
+          <a class="article_element drinks show " href="./ifruitR.html">
+
+            <figure class="article_header">
+
+              <img class="delayed-image"  src="images/ifruit.jpg" alt="">
+
+            </figure>
+            <div class="article-body">
+
+              <div class="element_footer">
+             <h3 class="article_name">Ifruit Royal</h3>
+             <p class="price-tag"> <span class="price-num">70 Da</span></p>
+
+           </div>
+           </div>
+
+
+
+
+
+          </a>
+
+
+
+
+
+
+      </section>
+
+
+
+
+
+
+
+
+
+
+    </div>
+   
+
+  </main>
+
+  <footer>
+    <div class="footer-container">
+        <div class="contact-info">
+            <h4 class="info footer-titles">Info</h4>
+            <p>Les Tours-Villa, Tizi Ouzou 15000
+            </p>
+            <p>Phone: (+213) 0727 72 27 72</p>
+            <p>Email: burger@dorsia.com</p>
+        </div>
+
+      
+
+        <div>
+            <h4 class="hours footer-titles">Hours</h4>
+            <p>Sundays to Thursdays: 11:00 AM - 9:00 PM</p>
+            <p>Fridays: 8:00 PM - 11PM</p>
+        </div>
+        <div class="social-links">
+            <h4 class="followUs footer-titles">Follow Us</h4>
+            <ul>
+                <li>
+                 <a href="https://www.instagram.com/nabil_gwynbleidd/" target="_blank">
+                 <img class="socials-logo" src="./images/instagram.png"></a>
+                 <a href="https://www.facebook.com/profile.php?id=100080620953167&sk=about"     target="_blank"> <img class="socials-logo" src="./images/facebook.png"></a>
+                 <a href="https://www.tiktok.com/@nabil_gwynbleidd" target="_blank"> <img class="socials-logo" src="./images/tiktok.png"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-nav">
+            <h4 class="quickLinks footer-titles">Quick Links</h4>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./location.html">Location</a></li>
+                <li><a href="./contactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="bottom">
+        <p class="copyright">
+         © 2024 Dorsia. All rights reserved. | Website by Kiisu Kawaii
+        </p>
+      </div>
+</footer> 
+  <script src="javaScript/script.js"></script>
+</body>
+
+</html>
