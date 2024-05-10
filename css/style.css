@@ -18,7 +18,7 @@ header{
 }
 body{
   /*background-color:  rgb(255, 215, 0);*/
-  overflow-x: hidden;
+  /*overflow-x: hidden;*/
   background-image: url("../images/extra-img/header-bg.png"); 
   background-position: center center  ;
   background-size: contain ;
